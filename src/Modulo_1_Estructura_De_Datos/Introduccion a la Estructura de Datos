@@ -1,0 +1,22 @@
+--- Metas ---
+    - Identificar la estrucuta de datos que mejor se adapte a nuestro problema.
+    - Realizar pruebas Unitarias con JUnit.
+
+¿Que es una estructura de Datos?
+    - Son estructuras que nos permiten almacenar cualquier tipo de dato cuando un programa se ejecuta.
+    Tipos:
+        - Dinamicas / Estaticas: Su tamaño puede variar o no durante la ejecucion de un programa.
+        - Lineales / No Lineales: Se recorren en un sentido mediante su vecino.
+
+Operaciones
+    Todas las estructuras de datos deben permitir:
+        - Consulta de elementos.
+        - Modificacion de elementos.
+        - Borrado de elementos.
+        - Recorrido de elementos.
+
+TAD
+    Tipo Abstracto de Datos:
+        - Modelo matematico que sirve para definir el comportamiento de una estructura de datos independientemente del
+        objeto que albergue en el.
+        - Todas las implementaciones se pueden hacer estaticas o dinamicas.
