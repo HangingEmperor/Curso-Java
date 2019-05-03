@@ -24,6 +24,13 @@ Metodos:
     - get(int index): Devuelve el elemento de index.
     - contains(E e): Verificar si contiene un elemento.
 
+Caracteristicas:
+    - Todos los elementos tienen un predecesor y un sucesor menos el primero y el ultimo.
+    - Insercion posible por la cabecera y por la cola DoubleLinkedList (O(1)) en version dinamica y en version estatica
+    en el peor de los casos es O(n) por reordenacion de elementos.
+    - Si la implementacion es dinamica el recorrido de sus elementos se debe hacer de manera secuencial.
+    - Cada tipo de implementacion tiene sus ventajas e inconvenientes.
+
 Extras:
     Nodo
         - El nodo es un objeto que contiene un elemento y atributos especiales para que cada estrucutra de de datos

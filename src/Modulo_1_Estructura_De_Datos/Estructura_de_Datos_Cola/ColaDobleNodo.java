@@ -6,17 +6,17 @@ public class ColaDobleNodo<E> {
     private ColaDobleNodo<E> prev;
     private ColaDobleNodo<E> next;
 
-    public ColaDobleNodo() {
+    ColaDobleNodo() {
         this.element = null;
         this.prev = null;
         this.next = null;
     }
 
-    public E getElement() {
+    E getElement() {
         return element;
     }
 
-    public void setElement(E element) {
+    void setElement(E element) {
         this.element = element;
     }
 
@@ -24,15 +24,15 @@ public class ColaDobleNodo<E> {
         return prev;
     }
 
-    public void setPrev(ColaDobleNodo<E> prev) {
+    void setPrev(ColaDobleNodo<E> prev) {
         this.prev = prev;
     }
 
-    public ColaDobleNodo<E> getNext() {
+    ColaDobleNodo<E> getNext() {
         return next;
     }
 
-    public void setNext(ColaDobleNodo<E> next) {
+    void setNext(ColaDobleNodo<E> next) {
         this.next = next;
     }
 }

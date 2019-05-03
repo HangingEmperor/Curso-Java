@@ -53,7 +53,7 @@ public class ColaDoble<E> implements InterfaceQueueDoble<E> {
             this.tail = newNodo;
             this.size = 1;
         } else {
-            ColaDobleNodo<E> newNodo = new ColaDobleNodo<>();
+            ColaDobleNodo<E> newNodo = new ColaDobleNodo<E>();
             newNodo.setElement(element);
             newNodo.setNext(null);
             newNodo.setPrev(tail);
