@@ -1,0 +1,21 @@
+Arboles
+    - Modelo de una relacion con jerarquia.
+    - Esta formado por nodos.
+    - La relacion entre nodos es de Padre - Hijo.
+
+    Ejemplo:
+
+            Padre
+            |   |
+           Hijo Hijo
+
+    Conceptos:
+        - Root = Nodo raiz, no tiene padre
+        - Grado de un nodo = Numero de hijos.
+        - Grado de un arbol = Numero de hijos maximo de el arbol.
+        - Leaf = Nodo sin hijos.
+        - Jerarquia de Ancestros = Hijos, Padres, Abuelos...
+        - Altura de un arbol = Numero de ancestros maximos.
+        - Profundidad de un nodo = Su numero de ancestros maximos.
+        - Subarbol = Un nodo con todos sus descendientes
+        - Hermano / Brother = Nodos con mismo padre.

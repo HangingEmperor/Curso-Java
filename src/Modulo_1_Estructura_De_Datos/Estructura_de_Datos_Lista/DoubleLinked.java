@@ -1,5 +1,8 @@
 package Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Lista;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DoubleLinked<E> implements InterfaceDoubleLinkedList<E> {
 
     Nodo<E> head;
@@ -194,5 +197,24 @@ public class DoubleLinked<E> implements InterfaceDoubleLinkedList<E> {
     @Override
     public boolean contains(E e) {
         return false;
+    }
+
+    public Iterable<Nodo<E>> iterator() {
+        List<Nodo<E>> listResult = new ArrayList<Nodo<E>>();
+        DoubleLinked<E> dlAux = new DoubleLinked<E>();
+        while (!this.isEmpty()) {
+            Nodo<E> nodo = new Nodo<E>();
+            nodo = this.head;
+            listResult.add(nodo);
+
+            dlAux.addLast(this.getFirst());
+
+            this.removeFirst();
+        }
+        this.head = dlAux.head;
+        this.tail = dlAux.tail;
+        this.size = dlAux.size;
+
+        return listResult;
     }
 }

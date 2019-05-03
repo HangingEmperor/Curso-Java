@@ -1,0 +1,24 @@
+¿Que es?
+    - Pruebas a nivel de modulos (en POO a nivel de Clase)
+    - Comprobacion de ejecucion de metodos de una clase sin tener que necesitar un metodo main para cada clase.
+    - Resultados exactos y control de errores.
+    - Aumenta la velocidad de correion de errores en un proyecto medio/grande.
+    - Usa Asserciones (Assert) para realizar las pruebas.
+
+    Mas:
+    http://junit.sourceforge.net/javadoc/org/junit/Assert.html
+
+    Metodos:
+        - assertTrue(msg, b): B es cierto.
+        - assertFalse(msg, b): B es falso.
+        - assertEquals(msg, v1, v2): v1 = v2
+
+    Exceptions:
+        - @Test (expecred = ExceptionName.class)
+        - Al principio del metodo a probar.
+
+    Estado inicial:
+        - Meter atributos en la clase test.
+        - Inicializarlos con @before
+        - Si reservamos recursos xternos liberarlos con @after
+        - Test normales empiezan con @test
