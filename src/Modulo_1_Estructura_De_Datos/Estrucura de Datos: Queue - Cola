@@ -14,3 +14,4 @@ Metodos de Cola:
     - front(): Primer elemento.
     - enqueue(E e): Poner en la cola.
     - dequeue(): Quitar de la cola. [Quita al primero de la cola.]
+    - tail(): Devuelve el ultimo elemento.
