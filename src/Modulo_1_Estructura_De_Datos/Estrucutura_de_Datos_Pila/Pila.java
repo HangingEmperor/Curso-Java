@@ -2,8 +2,8 @@ package Modulo_1_Estructura_De_Datos.Estrucutura_de_Datos_Pila;
 
 public class Pila<E> implements InterfacePila<E> {
 
-    int size;
-    NodoPila<E> top;
+    private int size;
+    private NodoPila<E> top;
 
     public Pila() {
         size = 0;
