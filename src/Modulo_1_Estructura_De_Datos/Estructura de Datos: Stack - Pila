@@ -1,0 +1,15 @@
+Stack / Pila
+    - LIFO = Last in First Out (El ultimo que entra es el primero que sale.)
+    - Contiene elementos homogeneos. (Elementos del mismo tipo.)
+
+    Ejemplo:
+            3
+        2   2 ---> Se va apilando.
+    1   1   1
+
+Metodos de Pila:
+    - push(x): Añade elemento a la cima.
+    - pop(x): Extrae elemento de la cima.
+    - size(): Devuelve el tamaño de la pila.
+    - isEmpty(): Pregunta si esta vacia.
+    - top(): Devuelve el elemento de la cima de la pila.
