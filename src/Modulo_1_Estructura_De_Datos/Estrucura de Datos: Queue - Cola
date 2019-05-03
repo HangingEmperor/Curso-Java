@@ -1,0 +1,16 @@
+Cola / Queue
+    - FIFO: First in First Out: El que llega primero el primero que sale.
+    - Elementos homogeneos.
+    - Primer elemento head(Cabecera).
+
+    Ejemplo:
+    1
+    1   2       --> El primero en entrar es el primero que saldra, es como hacer fila en la vida real.
+    1   2   3
+
+Metodos de Cola:
+    - size(): Devuelve el tamaño de la lista.
+    - isEmpty: Si esta vacia.
+    - front(): Primer elemento.
+    - enqueue(E e): Poner en la cola.
+    - dequeue(): Quitar de la cola. [Quita al primero de la cola.]

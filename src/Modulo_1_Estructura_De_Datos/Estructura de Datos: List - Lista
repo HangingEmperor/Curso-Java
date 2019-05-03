@@ -1,0 +1,25 @@
+List / Lista
+    - Coleccion de elementos ordenados (Elementos con indice).
+    - Insercion en cabecera y borrado en el final o(1)
+    - Insercion/Borrado pero caso o(n)
+    - Pueden tener uno o mas apuntadores para sus vecinos.
+
+    Ejemplo:
+
+    Lista es una forma ordenada en el que cada elemento se representa por su indice, podemos agregar y borrar segun el
+    indice de nuestro elemento deseado. A diferencia de pila y cola, esta estructura tiene una forma de almacenamiento
+    mucho mas sencilla a la hora de trabajar con los datos.
+
+Metodos:
+    - addFirst(E e): Añade elemento al principio.
+    - addLast(E e): Añade elemento al final.
+    - add(E e, int index): Añade elemento en posicion.
+    - removeFirst(): Elimina el primer elemento.
+    - removeLast(): Eliminar el ultimo elemento.
+    - remove(int index): Elimina el elemento index.
+    - isEmpty(): Si esta vacio.
+    - size(): Tamaño de la lista.
+    - getFirst(): Devuelve el primer elemento.
+    - getLast(): Devuelve el ultimo elemento.
+    - get(int index): Devuelve el elemento de index.
+    - contains(E e): Verificar si contiene un elemento.
