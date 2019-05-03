@@ -23,3 +23,9 @@ Metodos:
     - getLast(): Devuelve el ultimo elemento.
     - get(int index): Devuelve el elemento de index.
     - contains(E e): Verificar si contiene un elemento.
+
+Extras:
+    Nodo
+        - El nodo es un objeto que contiene un elemento y atributos especiales para que cada estrucutra de de datos
+        pueda funcionar.
+        - Cada estructura de datos tiene un nodo caracteristico.
