@@ -1,8 +1,10 @@
-package Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles;
+package Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles.LinkedTree;
 
 import Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles.Exceptions.BadPositionException;
 import Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles.Exceptions.EmptyTreeException;
 import Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles.Exceptions.UnAccessException;
+import Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles.Position;
+import Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles.Tree;
 
 import java.util.ArrayList;
 import java.util.Iterator;

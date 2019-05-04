@@ -1,5 +1,6 @@
-package Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles;
+package Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles.LinkedTree;
 
+import Modulo_1_Estructura_De_Datos.Estructura_de_Datos_Arboles.Position;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

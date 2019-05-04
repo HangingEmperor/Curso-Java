@@ -1,0 +1,18 @@
+Arboles Binarios
+    - Estructura recursiva que se compone de raiz, subarbol izquierdo, y subarbol derecho.
+    - Es importante saber si el hijo es izquierdo o derecho.
+    - Como maximo tienen 2 nodo hijo.
+    - Tambien extiende de la interfazTree añadiendo metodos para consultar el contenido de los arboles izquierdo y
+    derecho.
+
+    Linked Binary Tree
+        - Elemento.
+        - SubArbol Izquierdo
+        - SubArbol Derecho
+
+            A
+         |      |
+        B<= Izq C <= Der
+
+    Esta estructura tiene una utilizacion muy bien, como lo son el arbol binario de decisiones, en vez de hacer
+    solamente if tras if, de manera recursiva usamos el arbol binario de decisiones.
