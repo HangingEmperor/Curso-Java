@@ -14,7 +14,7 @@ public interface Tree<E> {
     Iterator iterator();
 
     //Devolvemos una collection de todos sus nodos.
-    Iterator positions();
+    Iterable positions();
 
     // Metodos de Acceso:
     //Devolvemos la raiz del arbol.

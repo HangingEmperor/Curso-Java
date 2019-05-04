@@ -30,7 +30,7 @@ public class LinkedTree<E> implements Tree<E> {
 
     @Override
     public Iterator iterator() {
-        Iterable<Position<E>> positions = (Iterable<Position<E>>) positions();
+        Iterable<Position<E>> positions = positions();
         List<Position<E>> result = new ArrayList<Position<E>>();
         for (Position<E> p : positions) {
             result.add(p);
@@ -39,10 +39,10 @@ public class LinkedTree<E> implements Tree<E> {
     }
 
     @Override
-    public Iterator positions() {
+    public Iterable<Position<E>> positions() {
         List<Position<E>> list = new ArrayList<Position<E>>();
         preOrden(this.root, list);
-        return (Iterator) list;
+        return list;
     }
 
     @Override
@@ -119,7 +119,10 @@ public class LinkedTree<E> implements Tree<E> {
         Nodo<E> father = nodo.getFather();
         List<Nodo<E>> children = father.getSons();
         children.remove(nodo);
-        this.size--;
+
+        List<Position<E>> list = new ArrayList<Position<E>>();
+        this.preOrden(p, list);
+        size -= list.size();
         return nodo;
     }
 
