@@ -19,3 +19,35 @@ Arboles
         - Profundidad de un nodo = Su numero de ancestros maximos.
         - Subarbol = Un nodo con todos sus descendientes
         - Hermano / Brother = Nodos con mismo padre.
+
+    Metodos basicos de un Arbol:
+        Metodos Basicos:
+            - int size(): Devuelve el tamaño.
+            - boolean isEmpty(): True si esta vacio en caso contrario.
+            - Iterator iterator(): Devolvemos un iterador con todos sus elementos.
+            - Iterable positions(): Devolvemos una collection de todos sus nodos.
+        Metodos de Acceso:
+            - Position<E> root(): Devolvemos la raiz del arbol.
+            - Position<E> parent(Position<E> p): Devuelve el padre del nodo
+            - Iterable children(Position<E> p): Devuelve una lista con todos sus nodos hijo de un nodo.
+        Metodos de Consulta:
+            - boolean isLeaf(Position<E> p): Preguntamos si el nodo es hoja o no.
+            - boolean isInternal(Position<E> p): Preguntamos is un nodo es interno o no.
+            - boolean isRoot(Position<E> p): Preguntamos si este nodo es raiz.
+        Metodos de Actualizacion:
+            - E replace(Position<E> p, E elemento): Reemplaza el elemento del nodo P por el elemento E.
+
+    Decisiones de Diseño:
+        - Hay diferentes arboles con distintas caracteristicas hay que ajustarse a cada criterio.
+        - Debemos acceder a los nodos mediante Position para evitar modificar las partes que no deberian cambiar la
+        estructura de nuestro TAD.
+        - Los arboles nos sirven para tod.o problema que indique algun tipo de jerarquia como un sistema de ficheros,
+        ordenacion de elementos, arboles de decision, inteligencia artificial.
+        - Los metodos pueden ser diferentes dependiendo de cada implementacion de arbol:
+            - LinkedTree
+            - BinaryTree
+            - LCRSTree
+
+    Recorridos de un Arbol:
+        - Preorden: Un nodo se recorre antes que sus descendientes.
+        - Postorden: Un nodo se recorre despues de sus descendientes.
