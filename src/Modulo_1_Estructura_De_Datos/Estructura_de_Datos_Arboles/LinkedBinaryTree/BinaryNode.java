@@ -16,6 +16,13 @@ public class BinaryNode<E> implements Position<E> {
         parent = null;
     }
 
+    public BinaryNode(E element, BinaryNode<E> right, BinaryNode<E> left, BinaryNode<E> parent) {
+        this.element = element;
+        this.right = right;
+        this.left = left;
+        this.parent = parent;
+    }
+
     public E getElement() {
         return element;
     }
