@@ -18,6 +18,7 @@ public class LinkedBinaryTreeTest {
         t.addLeft(p2, "f");
         t.addRight(p2, "g");
 
+        assertEquals(t.root.element(), "a");
         assertEquals(t.size(), 6);
     }
 

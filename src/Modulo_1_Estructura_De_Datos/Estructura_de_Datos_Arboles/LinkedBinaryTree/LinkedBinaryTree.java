@@ -11,7 +11,7 @@ import java.util.List;
 
 public class LinkedBinaryTree<E> implements InterfaceBinaryTree<E> {
 
-    private BinaryNode<E> root;
+    public BinaryNode<E> root;
     private int size;
 
     @Override
@@ -168,6 +168,7 @@ public class LinkedBinaryTree<E> implements InterfaceBinaryTree<E> {
         BinaryNode<E> newNode = this.createNode(element, null, null, null);
         if (this.root == null) {
             this.root = newNode;
+            this.size++;
         } else {
             throw new BadPositionException("El arbol ya contiene una raiz");
         }
