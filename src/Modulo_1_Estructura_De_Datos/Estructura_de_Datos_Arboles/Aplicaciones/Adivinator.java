@@ -18,11 +18,7 @@ public class Adivinator {
         cadena1 = sc.nextLine();
         a.addRoot(cadena1);
 
-        System.out.println(a.root());
-        System.out.println(a.root.element());
-        System.out.println(a.root().element());
-
-        System.out.println("¿Puedes darme un ejemplo de un " + a.root().element());
+        System.out.println("¿Puedes darme un ejemplo de un " + a.root().element() + "?");
         cadena1 = sc.nextLine();
         a.addLeft(a.root(), cadena1);
 
@@ -46,7 +42,7 @@ public class Adivinator {
                 System.out.println("Por favor, escribeme la solucion.");
                 String solucion = scanner.nextLine();
 
-                System.out.println("Escribeme lo que diferencia " + p.element() + " y " + solucion);
+                System.out.println("Escribeme lo que diferencia " + solucion + " y " + p.element());
                 String nodoInterno = scanner.nextLine();
                 String oldLeaf = p.element();
 
@@ -75,7 +71,7 @@ public class Adivinator {
                 }
             } else {
                 if (a.hasRight(p)) {
-                    Adivinator.recorreArbol(a.left(p));
+                    Adivinator.recorreArbol(a.right(p));
                 } else {
                     System.out.println("¿En que estabas pensando?");
                     String respuesta2 = scanner.nextLine();

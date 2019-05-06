@@ -57,6 +57,6 @@ public class BinaryNode<E> implements Position<E> {
 
     @Override
     public E element() {
-        return null;
+        return element;
     }
 }
