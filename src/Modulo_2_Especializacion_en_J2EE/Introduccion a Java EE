@@ -1,0 +1,20 @@
+Java Enterprise Edition:
+    - Plataforma que sirve para desarrollar software empresarial.
+    - Desarrollo de sistemas distribuidos.
+    - Arquitectura de N capas.
+    - Aplicaciones modulares sobre un servidor de aplicaciones.
+    - Estandar de Desarrollo.
+    - Varias API: JDBC, RestFUL, XML, Maven.
+    - Aplicaciones escalables, portables, concurrentes, gestionables...
+
+Añadiendo servicios / Drivers de terceros
+    - Varios tipos de servicios y contenedores de aplicaciones, tomcat, GlassFish, JBoss, Oracle.
+    - Netbeans ya tiene preinstalado JavaDB
+
+
+PostGresQL
+    - Distribucion en diferentes sistemas operativos
+    - Codigo Abierto
+    - Bases de Datos relacionales
+    - Gratuito
+    - http://www.postgresql.org.es/
